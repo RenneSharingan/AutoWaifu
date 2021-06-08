@@ -1,0 +1,25 @@
+{
+    "name": "AutoWaifu Userbot",
+    "descreption": "It will autoprotecc waifus",
+    "repository": "https://github.com/Jorg3Lucas/AutoWaifu",
+    "keywords": [
+        "python",
+        "pyrogram",
+        "auto",
+        "waifu",
+        "Autowaifu",
+        "protecc",
+        "autoprotecc"
+    ],
+    "env": {
+        "API_ID": {
+            "descreption": "Get thid value from my.telegram.org"
+        },
+        "API_HASH": {
+            "descreption": "Get this value from my.telegram.org"
+        },
+        "STRING_SESSION": {
+            "descreption": "Get this from https://replit.com/@TeamUltroid/UltroidStringSession"
+        }
+    }
+}
