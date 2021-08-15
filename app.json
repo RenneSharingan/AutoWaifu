@@ -19,7 +19,7 @@
             "descreption": "Get this value from my.telegram.org"
         },
         "STRING_SESSION": {
-            "descreption": "Get this from https://replit.com/@TeamUltroid/UltroidStringSession"
+            "descreption": "Get session with python3 string_session_gen.py"
         }
     }
 }
