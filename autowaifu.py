@@ -21,7 +21,7 @@ Clit = Client(session_name=STRING_SESSION, api_id=API_ID, api_hash=API_HASH)
 async def reverse(client, message):
     if not message.photo:
         return
-    if message.from_user.id in [1232515770, 792028928]:
+    if message.from_user.id in [1232515770, 792028928, 1733263647]:
         dl = await Clit.download_media(message, "resources/")
         file = {"encoded_image": (dl, open(dl, "rb"))}
         grs = requests.post(
